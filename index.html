@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosa beviamo stasera?</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script type="text/javascript" src="zonajava.js"></script> <!-- Correzione rel="script" a rel="stylesheet" e type a text/javascript -->
+   
 </head>
 <body>
    
     <header>
-        <div class="logo-container"> <!-- Correzione logo-cointainer a logo-container -->
+        <div class="logo-container"> 
             <a href="index.html">
                 <p>Cosa beviamo stasera?</p>    
             </a>
@@ -22,11 +22,11 @@
             </div>
         </div>
        
-        <div id="Vini_rossi" class="tabcontent"> <!-- Correzione "Vini rossi" a "Vini_rossi" per lo spazio -->
+        <div id="Vini_rossi" class="tabcontent"> 
             <h1>Vini rossi</h1>
           </div>
           
-          <div id="Vini_bianchi" class="tabcontent"> <!-- Correzione "Vini bianchi" a "Vini_bianchi" per lo spazio -->
+          <div id="Vini_bianchi" class="tabcontent"> 
             <h1>Vini bianchi</h1>
           </div>
           
@@ -38,11 +38,12 @@
             <h1>Distillati</h1>
           </div>
           
-          <button class="tablink" onclick="openTab('Vini_rossi', this, 'red')" id="defaultOpen">Vini rossi</button> <!-- Correzione onclick -->
-          <button class="tablink" onclick="openTab('Vini_bianchi', this, 'green')">Vini Bianchi</button> <!-- Correzione onclick -->
-          <button class="tablink" onclick="openTab('Spumanti', this, 'blue')">Spumanti</button> <!-- Correzione onclick -->
-          <button class="tablink" onclick="openTab('Distillati', this, 'orange')">Distillati</button> <!-- Correzione onclick -->
+          <button class="tablink" onclick="openTab('Vini_rossi', this, 'red')" id="defaultOpen">Vini rossi</button> 
+          <button class="tablink" onclick="openTab('Vini_bianchi', this, 'green')">Vini Bianchi</button>
+          <button class="tablink" onclick="openTab('Spumanti', this, 'blue')">Spumanti</button> 
+          <button class="tablink" onclick="openTab('Distillati', this, 'orange')">Distillati</button>
           
+         
           <div class="slideContainer">
             <div class="picture">
                 <img src="immagini/1.jpg">
@@ -55,10 +56,11 @@
             </div>
             <div class="arrow">
                 <a class="previous" onclick="slideMove(-1)">&#10094;</a>
-                <a class="next" onclick="slideMove(1)">&#10095;</a> <!-- Correzione spazio tra il simbolo di freccia e l'angolo -->
+                <a class="next" onclick="slideMove(1)">&#10095;</a> 
             </div>
           </div>
       
     </header>
+    <script type="text/javascript" src="zonajava.js"></script>
 </body>
 </html>
